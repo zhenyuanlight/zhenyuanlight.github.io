@@ -1,14 +1,14 @@
 <table border="0">
   <tr>
     <td width="75%">
-      <h1>张三</h1>
-      <p><b>硕士研究生</b></p>
-      <p><b>××大学××学院</b></p>
-      <p><b>邮箱：1234567789@qq.com</b></p>
-      <p><b>地址：××市××区××路××号××大学，××楼，邮编×××</b></p>
+      <h1>王振远</h1>
+      <p><b>本科生</b></p>
+      <p><b>南京理工大学经济管理学院</b></p>
+      <p><b>邮箱：woaini@qq.com</b></p>
+      <p><b>地址：江苏省南京市</b></p>
     </td>
     <td width="25%">
-      <img src="/zhengjianzhao.jpg" width="100%">      % 插入证件照代码
+      <img src="wzy.jpg" width="100%"> 
     </td>
   </tr>
 </table>
