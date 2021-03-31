@@ -1,0 +1,23 @@
+body{
+	background-color: wheat;
+}
+h1{
+	text-align: center;
+	font-size: 200%;
+}
+#parastyle01{
+	color: black;
+	text-align: center;
+	font-size: 150%;
+	font-weight: bold;
+	line-height: 200%;
+	background-color: aqua;
+}
+#parastyle02{
+	color: black;
+	text-align: center;
+	font-size: 150%;
+	font-weight: bold;
+	line-height: 200%;
+	background-color: aqua;
+}
