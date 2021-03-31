@@ -1,6 +1,8 @@
 
 body {
-  background-color: #CEF6F5;
+        background-size: cover;
+	background-repeat:no-repeat;
+        background-color: #CEF6F5;
 	line-height: 200%;
 	background-image: url("山水画02.jpg");
 	font-weight: bold;
