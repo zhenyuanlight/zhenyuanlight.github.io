@@ -1,0 +1,14 @@
+body{
+	background-image: url("青春.jpg");
+	font-weight: bold;
+	line-height: 200%;
+	background-size: 100%;
+    background-repeat:no-repeat;
+}
+
+.layout{
+	text-align: center;
+}
+p.parasty{
+	text-align: left;
+}
