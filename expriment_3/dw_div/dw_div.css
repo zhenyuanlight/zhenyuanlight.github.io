@@ -1,0 +1,20 @@
+@charset "utf-8";
+/* CSS Document */
+
+#pets{
+	text-align: center;
+	padding:30px;
+	width: 500px;
+}
+#dogs cats{
+	padding:30px;
+	width: 500px;
+	border-width: thin;
+	border-style: dashed;
+	line-height: 2em;
+}
+
+#pets p{
+	background-color:#B5AEAE;
+}
+	
