@@ -3,7 +3,20 @@
 <head>
 <meta charset="utf-8">
 <title>99乘法表</title>
-	<link href="../js_1.js" type="text/javascript">
+	<script type="text/javascript">
+				document.write('<table>');
+		for(var i=1;i<=9;i++){
+			document.write('<tr>')
+			for(var l=1;l<=i;l++)
+				{
+					document.write('<td>');
+					document.write(l+'*'+i+'='+i*l);
+					document.write('<td>');
+				}
+			document.write('<tr>');
+		}
+		document.write('<table>');
+	</script>
 	<style>
 		table{
 			width: 80%;
@@ -15,9 +28,10 @@
 			padding: 10px;
 		}
 	</style>
-
+	
 </head>
 
 <body>
+	
 </body>
 </html>
