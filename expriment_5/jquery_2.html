@@ -1,0 +1,27 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>生成文本框</title>
+<script src="jquery-1.12.4.js"></script>
+<script>
+document.getElementById("div1").innerHTML = "";
+
+        var num = parseInt($("#itemNum").val());
+        var str = "";
+
+        for(var i=0;i<num;i++)
+        {
+            str +="<br><input type='text'>"
+        }
+            
+        $("#div1").append(str);            
+	</script>
+</head>
+
+<body>
+	<input type="text" id="itemNum">
+    <input type="button" id="btn" value="click" οnclick="addItems();">
+    <div id="div1"></div>
+</body>
+</html>
