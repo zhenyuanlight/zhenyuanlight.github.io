@@ -1,0 +1,33 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>吃水果</title>
+			<script type="text/javascript" src="js/jquery-1.7.2.js" ></script>
+		<script type="text/javascript">
+			$(function(){
+				$("#add").bind("click",function(){
+					var txt  = $("#input1").val();
+					$("ul").append("<li>"+txt+"</li>");
+				})
+				//删除
+				$("#del").bind("click",function(){
+					$("ul li:last-child").remove();
+				})
+				//清空 empty
+				$("#emp").bind("click",function(){
+					$("ul").empty();
+				})
+			});
+		</script>
+</head>
+
+<body>
+			<input type="text" id="input1" /><button id="add">添加</button><button id="del">删除</button><button id="emp">清空</button>
+		<ul>
+			<li>苹果</li>
+			<li>香蕉</li>
+			<li>菠萝</li>
+		</ul>
+</body>
+</html>
