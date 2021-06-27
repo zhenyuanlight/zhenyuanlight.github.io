@@ -1,0 +1,75 @@
+#FFFFCC#FFFFCC#FFFFCC
+.home{
+    height: 100%;
+    overflow: hidden;
+    background-color: hsla(0,0%,0%,0.1);}
+.content{
+    perspective: 300px;
+    width: 100%;
+    position: relative;
+}
+h1 {
+    color:#575252;
+    text-align: center;
+}
+
+.icon {
+    width: 60px;
+    height: 60px;
+    padding: 5px;
+    border: 2px solid rgb(0,0,0,0);
+    position: absolute;
+    border-radius: 100%;
+    left: 49%;
+    bottom: 40px;
+    animation: downs 2s linear infinite;
+}
+@keyframes downs {
+    from {
+        transform: translatey(0px);
+        opacity: .6;
+    }
+    to {
+        transform: translatey(30px);
+        opacity: .8;
+    }
+}
+/*.introduce_item_title{
+    width: 300px;
+    font-size: 24px;
+    line-height: 36px;
+    align-self: center;
+    padding-left: 100px;
+}*/
+/*footer{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    
+    width: 100%;
+    height: auto;
+	background-color: rgba(0,0,0,0.2);
+	color: #000000;
+    font-size: 2.2em;
+    padding: 18px;
+}
+footer span{
+    line-height: 1;
+    text-align: center;
+    margin: 0 auto;
+}*/
+.music_img_home {
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+    width: 50px;
+    height: 50px;
+    z-index: 9999;
+}
+.music_img_home:hover{
+	-webkit-transform: scale(1.05);
+    -moz-transform: scale(1.05);
+    -o-transform: scale(1.05);
+    transform: scale(1.05);
+
+}
