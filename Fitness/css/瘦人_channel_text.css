@@ -1,0 +1,30 @@
+@charset "utf-8";
+/* CSS Document */
+/*channel_text表示文本设置*/
+.channel_text{
+    /*background-color: #FFFFFF;*/
+    font-size: 2em;
+    line-height:1.6;
+    font-family:'Microsoft YaHei UI','Microsoft YaHei',DengXian,SimSun,'Segoe UI',Tahoma,Helvetica,sans-serif;
+    color: #000000;
+    margin : 1% 1%;
+    
+}
+.picture_type{
+    text-align: center;
+    font-size: 1.2em;
+    line-height: 2;
+}
+.blog p{
+    padding: 10px;
+    text-indent:2em;
+}
+img{
+    display: table-cell;
+    vertical-align: middle;
+    margin: 4px auto;
+}
+.bodyType_Middle{
+    margin-left: 10%;
+    font-size: 0.9em;
+}

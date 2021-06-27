@@ -1,0 +1,371 @@
+
+/*健身知识*/
+
+html,
+ul,
+body {
+	padding: 0;
+	margin: 0;
+}
+img{
+	
+	float: left;
+}
+ul {
+	list-style: none;
+}
+p{
+	font-size: 19px;
+	padding-right: 10px;
+	color: black;
+	font-family: 隶书
+}
+h2{
+	
+	text-align: center;
+}
+.siderbar {
+	position: fixed;
+	width: 250px;
+	height: 100%;
+	top: 0;
+	left: -250px;
+	background-color: #042331;
+	transition: all 0.5s;
+	z-index: 998;
+}
+
+.siderbar h1 {
+	margin: 0;
+	width: 100%;
+	height: 100px;
+	line-height: 100px;
+	text-align: center;
+	user-select: none;
+	font-size: 30px;
+	color: #fff;
+	background-color: #063146;
+	border-bottom: 1px solid black;
+}
+.siderbar ul {
+	overflow: hidden;
+}
+.siderbar ul a {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 100%;
+	height: 80px;
+	box-sizing: border-box;
+	border-top: 1px solid rgba(255, 255, 255, .1);
+	border-bottom: 1px solid black;
+	color: #aaa;
+	text-decoration: none;
+	font-size: 18px;
+	transition: all 0.5s;
+}
+.siderbar li a i {
+	margin-right: 20px;
+}
+.siderbar ul a:hover {
+	margin-left: 10px;
+	color: #eee;
+}
+#check {
+	display: none;
+}
+#show {
+	background-color: #063146;
+	color: #aaa;
+	width: 20px;
+	height: 20px;
+	border-radius: 5px;
+	text-align: center;
+	padding: 5px;
+	position: fixed;
+	top: 20px;
+	left: 20px;
+	transition: all 0.5s;
+	cursor: pointer;
+	z-index: 997;
+}
+#cancel {
+	color: #aaa;
+	width: 20px;
+	height: 20px;
+	border-radius: 5px;
+	font-size: 22px;
+	text-align: center;
+	padding: 2px;
+	position: fixed;
+	top: 33px;
+	left: -40px;
+	z-index: 999;
+	cursor: pointer;
+	transition: all 0.5s;
+}
+#show:hover,
+#cancel:hover {
+	color: #eee;
+}
+#show::before,
+#cancel::before {
+	line-height: 20px;
+}
+#check:checked ~ .siderbar {
+	left: 0px;
+}
+#check:checked ~ label #cancel {
+	left: 210px;
+}
+section {
+	-webkit-background-size: cover;
+	background-size: cover;
+	z-index: 1;
+	transition: all 0.5s;
+	height: 100vh;
+	padding: 5% 10%;
+	box-sizing: border-box;
+}
+#check:checked ~ section {
+	margin-left: 250px;
+}
+.main_xiong {
+	background-image: url("../其他资源/胸肌轮播.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 100%;
+	padding: 20px 50px;
+	border-radius: 60px;
+	box-sizing: border-box;
+	overflow: auto;
+	-ms-overflow-style: none;
+	
+}
+.main_jian {
+	background-image: url("../其他资源/肩部轮播-模糊.png");
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 100%;
+	padding: 20px 50px;
+	border-radius: 60px;
+	box-sizing: border-box;
+	overflow: auto;
+	-ms-overflow-style: none;
+	
+}
+.main_bei {
+	background-image: url("../其他资源/背部轮播-模糊.png");
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 100%;
+	padding: 20px 50px;
+	border-radius: 60px;
+	box-sizing: border-box;
+	overflow: auto;
+	-ms-overflow-style: none;
+	
+}
+.main_tui {
+	background-image: url("../其他资源/腿部轮播-模糊.png");
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 100%;
+	padding: 20px 50px;
+	border-radius: 60px;
+	box-sizing: border-box;
+	overflow: auto;
+	-ms-overflow-style: none;
+	
+}
+.main_fu {
+	background-image: url("../其他资源/腹部轮播-模糊.png");
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 100%;
+	padding: 20px 50px;
+	border-radius: 60px;
+	box-sizing: border-box;
+	overflow: auto;
+	-ms-overflow-style: none;
+	
+}
+.main_gonger {
+	background-image: url("../其他资源/肱二轮播-模糊.png");
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 100%;
+	padding: 20px 50px;
+	border-radius: 60px;
+	box-sizing: border-box;
+	overflow: auto;
+	-ms-overflow-style: none;
+	
+}
+.main_gongsan {
+	background-image: url("../其他资源/肱三轮播-模糊.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 100%;
+	padding: 20px 50px;
+	border-radius: 60px;
+	box-sizing: border-box;
+	overflow: auto;
+	-ms-overflow-style: none;
+	
+}
+.main h3 {
+	color: #fff;
+}
+.main::-webkit-scrollbar {
+	display: none;
+}
+
+/*健身知识与经验*/
+.style1{
+width: 800px;
+height: 100px;
+margin: 0px auto;
+margin-bottom:20px;
+border:1px solid #96C2F1;
+background-color: #EFF7FF
+}
+ 
+.style2{
+width: 800px;
+height: 100px;
+margin: 0px auto;
+margin-bottom:20px;
+border:1px solid #9BDF70;
+background-color: #F0FBEB
+}
+ 
+.style3{
+width: 800px;
+height: 100px;
+margin: 0px auto;
+margin-bottom:20px;
+border:1px solid #BBE1F1;
+background-color: #EEFAFF
+}
+ 
+.style4{
+width: 800px;
+height: 100px;
+margin: 0px auto;
+margin-bottom:20px;
+border:1px solid #CCEFF5;
+background-color: #FAFCFD
+}
+ 
+.style5{
+width: 800px;
+height: 100px;
+margin: 0px auto;
+margin-bottom:20px;
+border:1px solid #FFCC00;
+background-color: #FFFFF7
+}
+ 
+.style6{
+width: 800px;
+height: 100px;
+margin: 0px auto;
+margin-bottom:20px;
+border:1px solid #92B0DD;
+background-color: #FFFFFf
+}
+.style6 h5{
+margin: 1px;
+background-color: #E2EAF8;
+height: 24px;
+}
+ 
+.style7{
+width: 800px;
+height: 100px;
+margin: 0px auto;
+margin-bottom:20px;
+border:1px solid #A9C9E2;
+background-color: #E8F5FE
+}
+ 
+.style8{
+width: 800px;
+height: 100px;
+margin: 0px auto;
+margin-bottom:20px;
+border:1px solid #E3E197;
+background-color: #FFFFDD
+}
+ 
+.style9{
+width: 800px;
+height: 100px;
+margin: 0px auto;
+margin-bottom:20px;
+border:1px solid #ADCD3C;
+background-color: #F2FDDB
+}
+ 
+.style10{
+width: 800px;
+height: 100px;
+margin: 0px auto;
+margin-bottom:20px;
+border:1px solid #F8B3D0;
+background-color: #FFF5FA
+}
+ 
+.style11{
+width: 800px;
+height: 100px;
+margin: 0px auto;
+margin-bottom:20px;
+border:1px solid #D3D3D3;
+background-color: #F7F7F7
+}
+ 
+.style12{
+width: 800px;
+height: 100px;
+margin: 0px auto;
+margin-bottom:20px;
+border:1px solid #BFD1EB;
+background-color: #F3FAFF
+}
+ 
+.style13{
+width: 800px;
+height: 100px;
+margin: 0px auto;
+margin-bottom:20px;
+border:1px solid #FFDD99;
+background-color: #FFF9ED
+} 
+ 
+.style14{
+width: 800px;
+height: 100px;
+margin: 0px auto;
+margin-bottom:20px;
+border:1px solid #CACAFF;
+background-color: #F7F7FF
+} 
+ 
+.style15{
+width: 800px;
+height: 100px;
+margin: 0px auto;
+margin-bottom:20px;
+border:1px solid #A5B6C8;
+background-color: #EEF3F7
+}
+.style16{
+width: 800px;
+height: 100px;
+margin: 0px auto;
+margin-bottom:20px;
+border:1px solid #CEE3E9;
+background-color: #F1F7F9
+} 
