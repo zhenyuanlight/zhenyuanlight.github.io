@@ -1,0 +1,51 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: "montserrat",sans-serif;
+    min-height: 100vh;
+    background-image: linear-gradient(125deg,#6a89cc,#b8e994);
+    z-index: -9999;
+    
+}
+p{
+    font-size: 2em;
+    line-height: 1.8;
+}
+h2{
+    font-size: 2em;
+    line-height: 1.8;
+}
+.container{
+    width: 100%;
+    position: absolute;
+    top: 45%;
+    transform: translateY(-50%);
+    text-align: center;
+    color: #343434;
+}
+
+.container h1{
+    font-size: 250px;
+    margin: 0;
+    font-weight: 900;
+    letter-spacing: 20px;
+    background: url("../其他资源/樱花 街道 阳光 花瓣雨 4K高清风景动漫壁纸_1920x1080_4kbizhi.com.jpg") center no-repeat;
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+}
+
+.container a{
+    text-decoration: none;
+    background: #E55039aa;
+    color: #fff;
+    padding: 12px 24px;
+    display: inline-block;
+    border-radius: 25px;
+    font-size: 18px;
+    text-transform: uppercase;
+    transition: 0.4s;
+}
+
+.container a:hover{
+    background: #e55039;
+}
